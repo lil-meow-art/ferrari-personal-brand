@@ -1,0 +1,429 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Brand | Future F1 Strategist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <span>SCUDERIA</span>
+            <div class="loader-line"></div>
+            <p>PREPARING THE STRATEGY</p>
+        </div>
+    </div>
+
+    <header class="header">
+        <a href="#home" class="logo">F<span>1</span> / PERSONAL BRAND</a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+            <span></span><span></span>
+        </button>
+
+        <nav class="nav" id="mainNav">
+            <a href="#profile">PROFILE</a>
+            <a href="#approach">APPROACH</a>
+            <a href="#racecraft">SKILLS</a>
+            <a href="#pitwall">PIT WALL</a>
+            <a href="#contact" class="nav-contact">CONTACT <span>↗</span></a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="hero-bg-number">16</div>
+
+            <div class="hero-content">
+                <p class="eyebrow"><span class="red-dot"></span> THE NEXT MOVE STARTS HERE</p>
+                <h1>THINK FASTER.<br><span>WIN SMARTER.</span></h1>
+                <p class="hero-description">
+                    Future Formula 1 Strategist. Analytical mindset.
+                    A passion for turning complex data into decisive action.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#profile" class="btn btn-primary">DISCOVER MY PROFILE <span>↗</span></a>
+                    <a href="#pitwall" class="btn btn-outline">ENTER THE PIT WALL</a>
+                </div>
+
+                <div class="hero-meta">
+                    <div>
+                        <span class="meta-label">FOCUS</span>
+                        <strong>DATA & STRATEGY</strong>
+                    </div>
+                    <div>
+                        <span class="meta-label">MINDSET</span>
+                        <strong>ALWAYS AHEAD</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="car-area">
+                <div class="car-caption">
+                    <span>SCUDERIA FERRARI</span>
+                    <span>FORMULA 1 / RACE ENGINEERING</span>
+                </div>
+
+                <div class="car-stage">
+                    <img
+                        src="ferrari-car.webp"
+                        alt="Ferrari Formula 1 racing car"
+                        class="formula-car"
+                        id="formulaCar"
+                        draggable="false"
+                    >
+
+                    <button class="car-hotspot hotspot-performance" data-popup="performance">
+                        <span>01</span>
+                    </button>
+                    <button class="car-hotspot hotspot-strategy" data-popup="strategy">
+                        <span>02</span>
+                    </button>
+                    <button class="car-hotspot hotspot-teamwork" data-popup="teamwork">
+                        <span>03</span>
+                    </button>
+                </div>
+
+                <div class="car-controls">
+                    <span><i></i> INTERACTIVE CAR PROFILE</span>
+                    <span>SELECT A MARKER TO EXPLORE</span>
+                </div>
+
+                <div class="car-popup" id="carPopup">
+                    <button class="popup-close" id="popupClose">×</button>
+                    <span class="popup-number" id="popupNumber">01</span>
+                    <h3 id="popupTitle">PERFORMANCE</h3>
+                    <p id="popupText">Every detail matters.</p>
+                </div>
+            </div>
+
+            <div class="hero-bottom">
+                <span>SCROLL TO EXPLORE</span>
+                <span class="scroll-line"></span>
+                <span>01 — 05</span>
+            </div>
+        </section>
+
+        <!-- PROFILE -->
+        <section class="section profile-section" id="profile">
+            <div class="section-heading">
+                <span class="section-number">01 / DRIVER PROFILE</span>
+                <span class="section-line"></span>
+                <span class="section-tag">WHO AM I?</span>
+            </div>
+
+            <div class="profile-grid">
+                <div class="profile-title">
+                    <p class="eyebrow">BEHIND THE DATA</p>
+                    <h2>MORE THAN<br><span>JUST NUMBERS.</span></h2>
+                    <div class="profile-accent"></div>
+                </div>
+
+                <div class="profile-text">
+                    <h3>Meet the mind behind the strategy.</h3>
+                    <p>
+                        My name is <strong>Kliuchko Uliana</strong>, and I am a Business Informatics student
+                        interested in the intersection of data, technology and strategic decision-making.
+                    </p>
+                    <p>
+                        I enjoy exploring how complex information can become clear insights
+                        and how analytical thinking can support better decisions.
+                        Formula 1 is a perfect example of this process: every second,
+                        every variable and every decision can change the outcome.
+                    </p>
+                    <p>
+                        My ambition is to bring this mindset into the world of motorsport
+                        and become part of a team where precision and strategy matter.
+                    </p>
+
+                    <div class="profile-facts">
+                        <div>
+                            <strong>01</strong>
+                            <span>ANALYTICAL THINKING</span>
+                        </div>
+                        <div>
+                            <strong>02</strong>
+                            <span>DATA-DRIVEN MINDSET</span>
+                        </div>
+                        <div>
+                            <strong>03</strong>
+                            <span>CONTINUOUS LEARNING</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- APPROACH -->
+        <section class="section approach-section" id="approach">
+            <div class="section-heading">
+                <span class="section-number">02 / MY APPROACH</span>
+                <span class="section-line"></span>
+                <span class="section-tag">HOW I THINK</span>
+            </div>
+
+            <div class="approach-intro">
+                <p class="eyebrow">THE STRATEGIST'S MINDSET</p>
+                <h2>THREE STEPS.<br><span>ONE OBJECTIVE.</span></h2>
+            </div>
+
+            <div class="approach-grid">
+                <article class="approach-card">
+                    <span class="approach-index">01</span>
+                    <div class="approach-icon">⌕</div>
+                    <h3>ANALYSE</h3>
+                    <p>
+                        Understand the situation before making a move.
+                        I look for patterns, explore information and break
+                        complex problems into manageable parts.
+                    </p>
+                    <span class="card-bottom">SEE THE FULL PICTURE</span>
+                </article>
+
+                <article class="approach-card featured">
+                    <span class="approach-index">02</span>
+                    <div class="approach-icon">◉</div>
+                    <h3>ANTICIPATE</h3>
+                    <p>
+                        Think beyond the current moment. I consider different
+                        scenarios, possible risks and the consequences
+                        of every available option.
+                    </p>
+                    <span class="card-bottom">STAY ONE STEP AHEAD</span>
+                </article>
+
+                <article class="approach-card">
+                    <span class="approach-index">03</span>
+                    <div class="approach-icon">↗</div>
+                    <h3>DECIDE</h3>
+                    <p>
+                        Turn analysis into action. The goal is not simply
+                        to collect information, but to use it to make
+                        clear and effective decisions.
+                    </p>
+                    <span class="card-bottom">MAKE EVERY MOVE COUNT</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- TECHNICAL SKILLS -->
+        <section class="section racecraft-section" id="racecraft">
+            <div class="section-heading">
+                <span class="section-number">03 / TECHNICAL SKILLS</span>
+                <span class="section-line"></span>
+                <span class="section-tag">UNDER THE HOOD</span>
+            </div>
+
+            <div class="racecraft-heading">
+                <div>
+                    <p class="eyebrow">THE TECHNICAL SIDE</p>
+                    <h2>BUILT ON<br><span>PRECISION.</span></h2>
+                </div>
+                <p class="racecraft-description">
+                    Every Formula 1 car is a combination of interconnected
+                    components. My technical foundation works in a similar way:
+                    different skills come together to support one objective.
+                    Select a component to explore my toolkit.
+                </p>
+            </div>
+
+            <div class="technical-layout">
+                <div class="technical-car">
+                    <div class="technical-topline">
+                        <span>TECHNICAL BLUEPRINT / 001</span>
+                        <span>INTERACTIVE COMPONENTS</span>
+                    </div>
+
+                    <div class="blueprint">
+                        <div class="blueprint-grid"></div>
+
+                        <svg class="blueprint-car" viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg">
+                            <g fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M90 175 L190 160 L270 130 L380 120 L450 145 L520 120 L630 130 L710 160 L810 175"/>
+                                <path d="M90 205 L190 220 L270 250 L380 260 L450 235 L520 260 L630 250 L710 220 L810 205"/>
+                                <path d="M190 160 L190 220 M270 130 L270 250 M380 120 L380 260 M520 120 L520 260 M630 130 L630 250 M710 160 L710 220"/>
+                                <path d="M330 155 L570 155 L620 185 L570 215 L330 215 L280 185 Z"/>
+                                <path d="M390 155 L410 95 L490 95 L510 155"/>
+                                <path d="M410 95 L420 70 L480 70 L490 95"/>
+                                <path d="M70 145 L200 145 L200 235 L70 235 Z"/>
+                                <path d="M700 145 L830 145 L830 235 L700 235 Z"/>
+                                <path d="M280 185 L210 185 M620 185 L690 185"/>
+                                <path d="M450 145 L450 235"/>
+                                <circle cx="170" cy="185" r="55"/>
+                                <circle cx="730" cy="185" r="55"/>
+                                <circle cx="170" cy="185" r="30"/>
+                                <circle cx="730" cy="185" r="30"/>
+                                <path d="M350 155 L350 215 M550 155 L550 215"/>
+                                <path d="M450 70 L450 35 M430 35 L470 35"/>
+                            </g>
+                        </svg>
+
+                        <span class="blueprint-label label-front">FRONT SYSTEM</span>
+                        <span class="blueprint-label label-engine">POWER UNIT</span>
+                        <span class="blueprint-label label-data">DATA SYSTEM</span>
+                        <span class="blueprint-label label-rear">REAR SYSTEM</span>
+
+                        <button class="skill-hotspot skill-python" data-skill="python">
+                            <span>01</span>
+                        </button>
+                        <button class="skill-hotspot skill-sql" data-skill="sql">
+                            <span>02</span>
+                        </button>
+                        <button class="skill-hotspot skill-programming" data-skill="programming">
+                            <span>03</span>
+                        </button>
+                        <button class="skill-hotspot skill-ml" data-skill="ml">
+                            <span>04</span>
+                        </button>
+
+                        <div class="blueprint-legend">
+                            <span><i></i> SELECT A COMPONENT</span>
+                            <span>FIG. 01 — TECHNICAL OVERVIEW</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="technical-info" id="skillDisplay">
+                    <span class="info-overline">SELECTED COMPONENT / 00</span>
+                    <div class="info-symbol">+</div>
+                    <h3>THE TECHNICAL TOOLKIT</h3>
+                    <p>
+                        Select one of the highlighted components on the blueprint
+                        to discover the skills behind my analytical approach.
+                    </p>
+                    <div class="info-footer">
+                        <span>KNOWLEDGE IN PROGRESS</span>
+                        <span>01 — 04</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="soft-skills">
+                <p class="eyebrow">BEYOND THE TECHNICAL SIDE</p>
+                <h3>THE HUMAN FACTOR</h3>
+                <div class="soft-skill-list">
+                    <span>ATTENTION TO DETAIL</span>
+                    <span>ADAPTABILITY</span>
+                    <span>TEAMWORK</span>
+                    <span>PROBLEM-SOLVING</span>
+                    <span>CURIOSITY</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- PIT WALL -->
+        <section class="section pitwall-section" id="pitwall">
+            <div class="section-heading">
+                <span class="section-number">04 / THE PIT WALL</span>
+                <span class="section-line"></span>
+                <span class="section-tag">MAKE THE CALL</span>
+            </div>
+
+            <div class="pitwall-intro">
+                <p class="eyebrow">YOUR DECISION. YOUR RACE.</p>
+                <h2>WELCOME TO<br><span>THE PIT WALL.</span></h2>
+                <p>
+                    A strategist never has all the answers.
+                    But they always have to make a decision.
+                    Step into the role and test your race instincts.
+                </p>
+            </div>
+
+            <div class="pitwall-console">
+                <div class="console-header">
+                    <div>
+                        <span class="live-indicator"></span>
+                        <span>LIVE RACE SIMULATION</span>
+                    </div>
+                    <span>SCUDERIA FERRARI / STRATEGY ROOM</span>
+                </div>
+
+                <div class="scenario-tabs">
+                    <button class="scenario-tab active" data-scenario="weather">01 / WEATHER</button>
+                    <button class="scenario-tab" data-scenario="tyres">02 / TYRES</button>
+                    <button class="scenario-tab" data-scenario="safety">03 / SAFETY CAR</button>
+                </div>
+
+                <div class="scenario-content">
+                    <div class="scenario-number" id="scenarioNumber">01</div>
+                    <div class="scenario-main">
+                        <span class="scenario-status">RACE SITUATION</span>
+                        <h3 id="scenarioTitle">CHANGING WEATHER</h3>
+                        <p id="scenarioDescription">
+                            Rain is starting to fall. The track is becoming slippery,
+                            but the intensity is still low. Your driver is currently
+                            on medium tyres. What is your call?
+                        </p>
+
+                        <div class="scenario-data" id="scenarioData">
+                            <div><span>TRACK</span><strong>WETTING</strong></div>
+                            <div><span>TYRES</span><strong>MEDIUM</strong></div>
+                            <div><span>RAIN</span><strong>INCREASING</strong></div>
+                        </div>
+
+                        <div class="scenario-options" id="scenarioOptions">
+                            <button class="decision-btn" data-choice="wait">
+                                <span>A</span> STAY OUT AND WAIT
+                            </button>
+                            <button class="decision-btn" data-choice="pit">
+                                <span>B</span> PIT FOR INTERMEDIATES
+                            </button>
+                        </div>
+
+                        <div class="decision-feedback" id="decisionFeedback">
+                            <span class="feedback-label">STRATEGY FEEDBACK</span>
+                            <p>Select your decision to see the outcome.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="console-footer">
+                    <span>STRATEGY IS NEVER STATIC.</span>
+                    <span>THINK. ADAPT. EXECUTE.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact-section" id="contact">
+            <div class="contact-bg">FINAL LAP</div>
+            <div class="contact-content">
+                <p class="eyebrow"><span class="red-dot"></span> THE RACE IS NEVER OVER</p>
+                <h2>READY FOR<br><span>THE NEXT MOVE?</span></h2>
+                <p>
+                    Every great journey starts with a single decision.
+                    Let's connect and see what we can build together.
+                </p>
+                <a href="mailto:your.email@example.com" class="btn btn-primary contact-btn">
+                    GET IN TOUCH <span>↗</span>
+                </a>
+            </div>
+            <div class="contact-decoration">16</div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <a href="#home" class="logo">F<span>1</span> / PERSONAL BRAND</a>
+            <span>THINK FASTER. WIN SMARTER.</span>
+            <a href="#home" class="back-top">BACK TO TOP ↑</a>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Kliuchko Uliana. PERSONAL BRAND PROJECT.</span>
+            <span>BUILT WITH PASSION FOR FORMULA 1.</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
